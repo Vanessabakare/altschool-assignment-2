@@ -1,0 +1,68 @@
+/* Styling Links*/
+#links {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+
+#links :hover {
+    background-color:#687a9c ;
+   
+}
+
+
+/* Table Styling */
+ table {
+    width: 100%;
+    border-collapse: collapse; 
+    border:1px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: rgb(130, 174, 206);
+ }
+   
+ th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+ }
+
+ td {
+     text-align:left;
+    }
+
+
+/* Row Styling */
+ #Schools tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#Schools tr:hover {
+    background-color: #687a9c;
+} 
+
+
+
+/* Body Styling*/
+ body {
+    background-color: white; 
+    color: black;
+}
+
+header {
+    text-align: center;
+    color: #687a9c
+}
+
+h1 {
+    text-align: center;
+    color: black;  
+}
+
+
+/*Image Styling*/
+#image {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+}
